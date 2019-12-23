@@ -92,3 +92,10 @@ filterEntry1 name entry = entry.firstName == name || entry.lastName == name
 checkExist :: AddressBook -> Boolean
 checkExist Nil = false                
 checkExist book = true
+
+
+-- removeDuplicates :: AddressBook->AddressBook
+-- removeDuplicates book = nubBy
+--   where
+--   nubByEntry :: Entry -> Entry -> Boolean
+--   nubByEntry entry = 
