@@ -47,8 +47,3 @@ fib :: Int -> Int
 fib 0 = 1
 fib 1 = 1
 fib n = fib (n - 1) + fib (n - 2)
-
- map (\n -> n + 1) [1, 2, 3, 4, 5]
-
-
- 1 + 1 = (+) 1 1
